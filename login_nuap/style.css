@@ -92,7 +92,7 @@ form{
 
 .btn-entrar:hover{
     transition: .1s ease-in;
-    background: blue
+    background: rgb(83, 158, 233)
 }
 
 input,
