@@ -168,7 +168,7 @@ function finalizarAgendamento() {
     }
   });
   setInterval(() => {
-    location.reload();
+    window.location.href = '../index.html';
   }, 6900);
 
 }
