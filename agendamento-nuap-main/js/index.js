@@ -44,6 +44,10 @@ $(document).ready(function () {
     });
   })
 
+  $('#sucesso-falha-retorno').click(function () {
+    window.location.href = '../index.html';
+  })
+
 });
 
 
@@ -131,7 +135,7 @@ function finalizarAgendamento() {
   const swalWithBootstrapButtons = Swal.mixin({
     buttonsStyling: true
   });
-  
+
   swalWithBootstrapButtons.fire({
     title: 'Você tem certeza?',
     text: "A ação não poderá ser revertida!",
@@ -160,11 +164,11 @@ function finalizarAgendamento() {
         'Salvamos em algum lugar de sua memória mental :)',
         'error'
       );
-      
+
     }
   });
   setInterval(() => {
     location.reload();
   }, 6900);
-  
+
 }
