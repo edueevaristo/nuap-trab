@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    background: rgb(0, 255, 255);
+    background-color: #e3f2fd;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.atalhos {
+    font-family: 'Monteserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Monteserrat', sans-serif;
+}
+
+.logo-menor {
+    width: 55px;
+}
+
+.texto-menor {
+    font-size: 13px;
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}

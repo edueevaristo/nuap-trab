@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  background: rgb(212, 215, 215);
+  background: radial-gradient(circle, rgba(212, 215, 215, 1) 5%, rgba(91, 225, 220, 1) 100%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 20px;
+  height: 400px !important
+}
+
+.card-title {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #42a5f5;
+  border-color: #42a5f5;
+}
+
+.btn-primary:hover {
+  background-color: #1e88e5;
+  border-color: #1e88e5;
+}
+
+.sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300px;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.sidebar h4 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.sidebar p {
+  margin-bottom: 10px;
+}
+
+.card-container {
+  position: relative;
+  margin-left: 220px;
+  padding: 20px;
+}
+
+input,
+textarea,
+select {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.disable-hover:hover {
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.background-transparent {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.img-principal-centro {
+  height: 300px;
+}
+
+.img-principal-unimar {
+  height: 20px;
+}
+
+.text-size-agendamento,
+.style-tipo-agendamento-1 {
+  font-size: 20px;
+}
+
+.text-size-agendamento-2 {
+  font-size: 16px;
+}
+
+.select-analista:hover {
+  background-color: rgba(0, 157, 255, 0.1);
+  border: 50px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.ellipse-disp {
+  margin-left: 4px;
+  margin-top: 10px;
+  background-color: #00ff04;
+  border-radius: 50%;
+  color: #00ff26;
+  padding: 0 10px;
+  height: 20px;
+}
+
+.ellipse-indis {
+  margin-left: 4px;
+  margin-top: 10px;
+  background-color: #f10505;
+  border-radius: 50%;
+  color: #f10505;
+  padding: 0 10px;
+  height: 20px;
+}
+
+.swal-button-spacing {
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .card-body {
+    height: 500px !important;
+  }
+
+  .botoes-etapas {
+    margin-left: 10px !important;
+
+  }
+
+  .card-body {
+    height: 500px !important;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+  }
+
+  .card-container {
+    margin-left: 0;
+  }
+
+  .card-body {
+    height: 500px !important;
+  }
+
+  .botoes-etapas {
+    margin-left: 10px !important;
+
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+  }
+
+  .card-container {
+    margin-left: 0;
+  }
+
+  .card-body {
+    height: 500px !important;
+  }
+
+  .botoes-etapas {
+    margin-left: 10px !important;
+
+  }
+}
+
+@media only screen and (min-width: 790px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .card-container {
+    margin-left: 0;
+  }
+
+  .botoes-etapas {
+    margin-left: 10px !important;
+
+  }
+
+  .card-body {
+    height: 500px !important;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .card-container {
+    margin-left: 0;
+  }
+
+  .botoes-etapas {
+    margin-left: 10px !important;
+
+  }
+
+  .card-body {
+    height: 500px !important;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .sidebar {
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-body {
+    height: auto !important;
+  }
+
+  .img-principal-centro {
+    height: 180px;
+  }
+
+  .title-agendamento-step-1 {
+    font-size: 20px;
+  }
+
+  .responsive-row-analistas {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .botoes-etapas {
+    margin-left: 10px !important;
+
+  }
+
+}
+
+@media only screen and (max-width: 430px) {
+  .sidebar {
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-body {
+    height: auto !important;
+  }
+
+  .img-principal-centro {
+    height: 180px;
+  }
+
+  .title-agendamento-step-1 {
+    font-size: 20px;
+  }
+
+  .responsive-row-analistas {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .botoes-etapas {
+    margin-left: 10px !important;
+
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+  .sidebar {
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-body {
+    height: auto !important;
+  }
+
+  .img-principal-centro {
+    height: 180px;
+  }
+
+  .title-agendamento-step-1 {
+    font-size: 20px;
+  }
+
+  .responsive-row-analistas {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .botoes-etapas {
+    margin-left: 10px !important;
+
+  }
+}

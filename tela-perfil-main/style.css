@@ -1,0 +1,92 @@
+.body {
+    background-color: #fafafa;
+}
+
+.icons {
+    padding: 4%;
+    font-size: 20px;
+}
+
+.nav-top {
+    height: 63px;
+    background-color: white !important;
+    border-top:0.5px solid #dbdbdb;
+    border-bottom:1px solid #dbdbdb;
+}
+
+.nav-container {
+    padding-left: 25% !important;
+    padding-right: 25% !important;
+}
+
+.form-control {
+    border-radius: .15rem !important;
+    padding: 0% !important;
+    background-color: #fafafa !important;
+    text-align: center;
+    font-size: 15px !important;
+}
+
+.img-profile {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.username {
+    font-weight: 300; font-size: 28px;
+}
+
+.button-edit {
+    color: black !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border-color: #dbdbdb ;
+}
+.btn {
+    padding: .100rem .50rm !important;
+}
+
+.profile-datas {
+    font-size: 15px;
+}
+
+.name {
+    font-size: 16px; display: inline; font-weight: 600 !important;
+}
+
+.profile-desc {
+    font-size: 15px;
+}
+
+.nav-feed {
+    border-bottom: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.nav-link-1 {
+    color: #495057;
+    background-color: #fafafa !important;
+    border-color: gray #fff #fff !important;
+    border-top-right-radius: .0rem !important;
+    border-top-left-radius: .0rem !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-link-2 {
+    color: #a2a8af;
+    background-color: #fafafa !important;
+    border-color: #fff #fff #fff !important;
+    border-top-right-radius: .0rem !important;
+    border-top-left-radius: .0rem !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.ra {
+    font-size: 16px; display: inline; font-weight: 600 !important;
+}

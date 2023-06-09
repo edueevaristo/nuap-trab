@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  background: rgb(212, 215, 215);
+  background: radial-gradient(circle, rgba(212, 215, 215, 1) 5%, rgba(91, 225, 220, 1) 100%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+
+.logo-menor {
+    width: 55px;
+}
+
+.cards-acompanhamento{
+  background: radial-gradient(circle, rgba(212, 215, 215, 1) 5%, rgba(91, 225, 220, 1) 100%);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../login_nuap/style.css">
+    <link rel="shortcut icon" href="../assets/nuapLogo.png" type="image/x-icon">
+    <title>Nuapa - Cadastro</title>
+</head>
+<body>
+    <div class="content">
+       <div class="login-box cadastro">
+            <div class="header">
+                <h1>NuAP</h1>
+                <sub>Cadastre-se agora</sub>
+            </div>
+            <div class="main">
+                <form action="">
+                    <div class="input-group">
+                        <label class="input-label-none" id="lbl_nome" for="nome">Nome</label>
+                        <input onkeydown="showLabel('nome')"  onchange="showLabel('nome')" class="input-data" type="text" id="nome">
+                    </div>
+                    <div class="input-group">
+                        <label class="input-label-none" id="lbl_email" for="email">Email</label>
+                        <input onkeydown="showLabel('email')"  onchange="showLabel('email')" class="input-data" type="text" id="email">
+                    </div>
+                    <div class="input-group">
+                        <label class="input-label" id="lbl_senha" for="senha">Senha</label>
+                        <input onkeydown="showLabel('senha')" onchange="showLabel('email')" class="input-data" type="password" id="senha">
+                    </div>
+                    <div class="input-group">
+                        <label class="input-label" id="lbl_auth_senha" for="auth_senha">Confirme sua senha</label>
+                        <input onkeydown="showLabel('auth_senha')" onchange="showLabel('email')"class="input-data" type="password" id="auth_senha">
+                    </div>
+                    <div class="input-group">
+                        <input type="submit" class="btn-entrar" value="Cadastrar-se">
+                    </div>
+                </form>
+            </div>
+       </div>
+       <script src="../login_nuap/scripts.js"></script>
+    </div>
+</body>
+</html>
